@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7bf534bc-fd4f-4b50-9ca6-b31c30df2903" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49343/RegisterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RegisterService.xsd" MetadataType="Schema" ID="073a5b5b-21b1-4adc-97bd-511995b77ef6" SourceId="1" SourceUrl="http://localhost:49343/RegisterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RegisterService.wsdl" MetadataType="Wsdl" ID="c3f44519-4847-458e-95c1-b7b408fede86" SourceId="1" SourceUrl="http://localhost:49343/RegisterService.svc?wsdl" />
+    <MetadataFile FileName="RegisterService1.xsd" MetadataType="Schema" ID="3e08faad-d151-4d8d-a542-7eeefec18c43" SourceId="1" SourceUrl="http://localhost:49343/RegisterService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RegisterService2.xsd" MetadataType="Schema" ID="0caff5e0-33dc-46c7-b8ab-c2b5ce70ffa9" SourceId="1" SourceUrl="http://localhost:49343/RegisterService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RegisterService.disco" MetadataType="Disco" ID="ee03236d-53f8-4141-8c2a-6a73d0204456" SourceId="1" SourceUrl="http://localhost:49343/RegisterService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

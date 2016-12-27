@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="92e64784-5bf3-4ad5-8533-31570e5101e0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49379/AddShowService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AddShowService.xsd" MetadataType="Schema" ID="9ce6c192-ff1b-4f36-ba31-ad1802c888fa" SourceId="1" SourceUrl="http://localhost:49379/AddShowService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AddShowService.disco" MetadataType="Disco" ID="c60078d2-026e-4473-af80-53c8f2ea1dd0" SourceId="1" SourceUrl="http://localhost:49379/AddShowService.svc?disco" />
+    <MetadataFile FileName="AddShowService1.xsd" MetadataType="Schema" ID="618a2278-4fde-4b01-8809-076ea89508a4" SourceId="1" SourceUrl="http://localhost:49379/AddShowService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AddShowService.wsdl" MetadataType="Wsdl" ID="7b8a10ff-9efe-45e5-87eb-c813cf58f906" SourceId="1" SourceUrl="http://localhost:49379/AddShowService.svc?wsdl" />
+    <MetadataFile FileName="AddShowService2.xsd" MetadataType="Schema" ID="4611ada1-e71d-4847-b3cf-45a598740c30" SourceId="1" SourceUrl="http://localhost:49379/AddShowService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,29 @@
+﻿body {
+    font-family: Arial;
+    font-size:15px;
+}
+
+h1{
+    color:darkblue;
+}
+
+h2{
+    color:blue;
+}
+
+
+.error
+{
+   color:red;
+}
+
+.textbox{
+    background-color: grey;
+}
+
+
+.login{
+    border:solid 1px dimgrey;
+    background-color: ivory;
+    color: darkblue;
+}
